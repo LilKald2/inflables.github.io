@@ -791,6 +791,12 @@ footer{
     .title h2 {
         font-size: 0.9em;
     }
+    .titolInflables img{
+        width: 70%;
+    }
+    .titolInflables img{
+        width: 70%;
+    }
 }
 @media screen and (max-width: 560px) {
     .imatgeHeader img {
@@ -907,6 +913,21 @@ footer{
         width: 250px;
     }
 
-
+    .joinow {
+        font-size: 1em;
+        padding: 5px 10px;
+    }
+    .titleNorma img{
+        width: 100%;
+    }
+    .menu a{
+        font-size: 1.2em;
+    }
+    .box {
+        width: 80%;
+    }
+    .dinsContainer {
+        width: 90%;
+    }
 
 }
