@@ -1,0 +1,912 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F9FCFD;
+}
+
+
+/* -------------------- HEADER -----------------------*/
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #93A0A3;
+}
+.container{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+li{
+    margin-right: 30px;
+}
+.menu a{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+.menu a:hover{
+    color: #FFCC55;
+}
+
+.join{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.joinow{
+    height: auto;
+    background-color: #D9EEF4;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 0px solid white;
+    transition: 0.5s all;
+}
+.joinow:hover{
+    background-color: #FFCC55;
+    cursor: pointer;
+    
+}
+.joinow p{
+    margin: 5px 5px;
+}
+
+.fons{
+    width: 100%;
+    height: 100px;
+    /* background-image: url(img/menu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+.imgmenu{
+    width: 100%;
+
+}
+
+/* -------------------- COS -----------------------*/
+article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container2{
+    width: 60%;
+    /* height: 100px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+.title h1{
+    text-align: left;
+    color: #737373;
+    font-weight: bold;
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+h2{
+    margin-top: 10px;
+    font-size: 1.8em;
+    text-align: left;
+    color: #2C2C2C; 
+}
+.demana_info{
+    margin-top: 30px;
+    background-color: #93A0A3;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 35px;
+    font-size: 1.3em;
+    border: 0px solid black;
+    transition: all 0.5s;
+}
+
+.demana_info:hover{
+    background-color: #FFCC55;
+    cursor: pointer;
+    border: 0px solid black;
+}
+
+.imatgeHeader img{
+    width: 600px;
+}
+
+/* Perquè henm de certificar els inflables? */
+.container3{
+    margin-top: 40px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titol h3{
+    text-align: center;
+    color: #93A0A3;
+    font-size: 2.3em;
+    margin-bottom: 20px;
+}
+.boxes{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box{
+    width: 20%;
+    height: 330px;
+    border: 2px solid #B887C1;
+    background-color: #F3E9F5;
+    border-radius: 12px;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    transition: all 0.5s;
+}
+
+.box img{
+    margin-top: 20px;
+}
+
+.boxTitle{
+    text-align: center;
+    color: #737373;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.boxInfo{
+    font-size: 1.2em;
+}
+
+.box:hover{
+    background-color: #413E49;
+    border: 2px solid #B887C1;
+    color: white;
+}
+
+.box:hover .boxTitle{
+    transition: all 0.5s;
+    color: white;
+}
+
+
+/* ------------Com ho fem?---------------- */
+.container4 {
+    position: relative;
+    margin-top: 150px;
+    width: 100%;
+    color: white;
+    background-color: #93A0A3;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4 img.cloud {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.top-cloud {
+    top: -100px;
+}
+
+.bottom-cloud {
+    bottom: -100px;
+}
+
+.dinsContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 200px 0;
+}
+
+.titleCom {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+.titleCom h3 {
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+.titleCom p {
+    text-align: left;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.LearnMore {
+    padding: 10px 15px;
+    background-color: #EEE8EF;
+    font-size: 1.1em;
+    color: #737373;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+
+.LearnMore:hover {
+    background-color: #93A0A3;
+    border: 2px solid #EEE8EF;
+    cursor: pointer;
+    color: white;
+}
+
+.titolInflables h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+
+/* Tipus d'inflables que certifiquem */
+.container5{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tipusInflables{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tipusInflablesBoxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tipusInflablesFila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tipusInflablesBox{
+    color: white;
+    text-align: left;
+    background-color: #93A0A3;
+    border-radius: 10px;
+    padding: 30px 10px;
+    margin: 10px 10px;
+}
+
+/* Normatives */
+.normatives{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titleNormatives{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.titleNorma{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subtitleNorm{
+    color: #413E49;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.titleNorm{
+    margin-top: 0px;
+    color: #2E0336;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+.normBoxes{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.nomrmBox{
+    width: 40%;
+    height: 200px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+    margin: 0px 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.normBoxImage{
+    width: 50%;
+}
+.normBoxImage img{
+    width: 100%;
+}
+
+.normTitle{
+    width: 50%;
+    text-align: left;
+    margin-left: 30px;
+}
+
+/* Certificats */
+.container6 {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #93A0A3;
+    overflow: hidden;
+    z-index: 5;
+    /* border-top-left-radius: 20% 100%;
+    border-top-right-radius: 20% 100%;
+    border-bottom-left-radius: 20% 100%;
+    border-bottom-right-radius: 20% 100%; */
+}
+
+.certCont {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.certificats, .contacte {
+    color: white;
+    
+}
+
+.certificats {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.2em;
+}
+
+.contacte {
+    width: 100%;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+/* Contacte */
+.container7{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactet{
+    width: 60%;
+    background-color: #93A0A3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contacteTitol{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.getintouch{
+    margin-top: 40px;
+    color: #F39C12;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+.contactaPer{
+    font-size: 2.6em;
+    color: #454444;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nom input{
+    width: 47%;
+    font-size: 1.2em;
+    padding: 10px 10px;
+    border: 0px solid black;
+}
+.motiu{
+    width: 100%;
+    margin-top: 20px;
+}
+.motiu input{
+    width: 100%;
+    font-size: 1.2em;
+    padding: 10px 0px 10px 10px;
+    border: 0px solid black;
+    box-sizing: border-box;
+}
+
+.textarea{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.textarea textarea{
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    width: 100%;
+    height: 200px;
+    border: 0px solid black;
+    padding: 10px 10px;
+}
+
+
+.enviar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enviarBoto{
+    font-size: 1.3em;
+    padding: 10px 90px;
+    background-color: #F39C12;
+    border: 0px solid black;
+    transition: 0.5s all;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.enviarBoto:hover{
+    cursor: pointer;
+    background-color: #454444;
+}
+
+.inflablet {
+    width: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-20%, -40%);
+}
+
+.inflabletRes{
+    width: 250px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(15%, 15%);
+}
+
+
+
+
+footer{
+    margin-top: 100px;
+    background-color: #171717;
+    height: 400px;
+}
+
+
+
+
+@media screen and (max-width: 1460px) {
+    .imatgeHeader img{
+      width: 400px;
+    }
+    .title h1{
+        font-size: 4.3em;
+    }
+    .title h2{
+        font-size: 1.4em;
+    }
+    .box{
+        height: 350px;
+    }
+    .inflablet{
+        width: 210px;
+    }
+    .inflabletRes{
+        width: 210px;
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+    .menu{
+        margin-top: 50px;
+    }
+    .menu li {
+        margin-bottom: 10px;
+        width: auto;
+        flex-grow: 1;
+        margin-right: 10px;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .join {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .joinow{
+        font-size: 1.4em;
+        padding: 5px 30px
+    }
+    .menu ul{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-left: 0px;
+    }
+    .menu li{
+        width: 20%;
+    }
+    .menu a{
+        font-size: 1.4em;
+    }
+    .boxes {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .box {
+        width: 35%;
+        margin-bottom: 20px;
+    }
+    .dinsContainer{
+        padding: 80px 0px;
+    }
+    .top-cloud{
+        top: -70px;
+    }
+    .bottom-cloud{
+        bottom: -90px;
+    }
+    .tipusInflablesFila{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .tipusInflablesBox{
+        width: 40%;
+    }
+    .certificats{
+        font-size: 2em;
+    }
+    .contacte{
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .imatgeHeader img{
+        width: 350px;
+      }
+    .title h1{
+        font-size: 3.6em;
+    }
+    .title h2{
+        font-size: 1.2em;
+    }
+    .top-cloud {
+        top: -50px;
+    }
+    .bottom-cloud {
+        bottom: -60px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .imatgeHeader img{
+        width: 320px;
+      }
+    .title h1{
+        font-size: 3.2em;
+    }
+    .title h2{
+        font-size: 1.1em;
+    }
+    .box{
+        width: 40%;
+    }
+    .container{
+        width: 80%;
+    }
+    .container2{
+        width: 80%;
+    }
+    .container3{
+        width: 80%;
+    }
+    .dinsContainer{
+        width: 80%;
+    }
+    .tipusInflables{
+        width: 80%;
+    }
+    .normatives{
+        width: 80%;
+    }
+    .certCont{
+        width: 80%;
+    }
+    .contactet{
+        width: 80%;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .container{
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu{
+        margin-top: 0px;
+    }
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    .menu.active ul {
+        display: flex;
+    }
+    .menu li{
+        text-align: left;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .menu::before {
+        content: "☰";
+        color: white;
+        font-size: 2em;
+        cursor: pointer;
+    }
+
+    .menu.active::before {
+        color: white;
+        content: "✖";
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .imatgeHeader img {
+        width: 280px;
+    }
+    .title h1 {
+        font-size: 2.8em;
+    }
+    .title h2 {
+        font-size: 1em;
+    }
+    .top-cloud {
+        top: -30px;
+    }
+    .bottom-cloud {
+        bottom: -40px;
+    }
+    .normBoxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nomrmBox{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .imatgeHeader img {
+        width: 250px;
+    }
+    .title h1 {
+        font-size: 2.4em;
+    }
+    .title h2 {
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 560px) {
+    .imatgeHeader img {
+        width: 230px;
+    }
+    .title h1 {
+        font-size: 2.2em;
+    }
+    .title h2 {
+        font-size: 0.8em;
+    }
+    .joinow {
+        font-size: 1.2em;
+        padding: 5px 20px;
+    }
+    .demana_info{
+        font-size: 1.2em;
+        padding: 8px 28px;
+    }
+    .titleCom{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .box{
+        width: 60%;
+    }
+    .top-cloud {
+        top: -20px;
+    }
+    .bottom-cloud {
+        bottom: -30px;
+    }
+    .certificats {
+        font-size: 1.7em;
+    }
+    .contacte {
+        font-size: 1.3em;
+    }
+    .inflablet{
+        width: 160px;
+    }
+    .inflabletRes {
+        width: 170px;
+    }
+    .nom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nom input{
+        width: 100%;
+        margin: 10px 0px;
+        box-sizing: border-box;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .imatgeHeader img {
+        width: 200px;
+    }
+    .title h1 {
+        font-size: 2.0em;
+    }
+    .title h2 {
+        font-size: 0.8em;
+    }
+    .titol h3{
+        font-size: 2em;
+    }
+    .dinsContainer{
+        justify-content: flex-start;
+    }
+    .titleCom {
+        width: 70%;
+        margin-left: 30px;
+    }
+    .tipusInflablesBox {
+        width: 70%;
+    }
+    .nomrmBox {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title h1 {
+        margin-top: 0px;
+        font-size: 2.6em;
+        text-align: center;
+    }
+    .title h2 {
+        font-size: 1em;
+        text-align: center;
+    }
+    .title{
+        justify-content: center;
+        align-items: center;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container2 img{
+        margin-top: 30px;
+    }
+    .imatgeHeader img {
+        width: 250px;
+    }
+
+
+
+}
