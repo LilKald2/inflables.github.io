@@ -34,6 +34,18 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+/* .menu-toggle {
+    display: none;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+} */
+
+
+
 ul{
     margin: 0px;
     list-style: none;
@@ -311,6 +323,8 @@ h2{
 }
 
 .tipusInflablesBox{
+    width: 25%;
+    height: 200px;
     color: white;
     text-align: left;
     background-color: #93A0A3;
@@ -561,13 +575,33 @@ h2{
 
 footer{
     margin-top: 100px;
-    background-color: #171717;
+    background-color: #454444;
     height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer p{
+    color: white;
+    font-size: 2em;
+    text-align: left;
 }
 
 
+@media screen and (max-width: 1650px) {
+    .box{
+        height: 430px;
+    }
 
-
+}
 @media screen and (max-width: 1460px) {
     .imatgeHeader img{
       width: 400px;
@@ -579,7 +613,7 @@ footer{
         font-size: 1.4em;
     }
     .box{
-        height: 350px;
+        height: 450px;
     }
     .inflablet{
         width: 210px;
@@ -715,6 +749,7 @@ footer{
 
 }
 @media screen and (max-width: 768px) {
+
     .container{
         padding: 20px 0px;
         display: flex;
@@ -751,6 +786,9 @@ footer{
         color: white;
         content: "✖";
     }
+
+
+    /* ----------------- */
 }
 
 @media screen and (max-width: 690px) {
@@ -820,8 +858,7 @@ footer{
         width: 60%;
     }
 }
-
-@media screen and (max-width: 560px) {
+    @media screen and (max-width: 560px) {
     .box{
         width: 60%;
     }
@@ -884,9 +921,6 @@ footer{
         width: 80%;
         margin-bottom: 30px;
     }
-}
-
-@media screen and (max-width: 500px) {
     .title h1 {
         margin-top: 0px;
         font-size: 2.6em;
@@ -931,3 +965,9 @@ footer{
     }
 
 }
+
+
+
+
+
+
